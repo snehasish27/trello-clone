@@ -1,0 +1,15 @@
+.trello-header {
+	background-color: white;
+	z-index: 1;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	padding: 10px;
+	display: flex;
+	justify-content: center;
+	box-shadow: 0 3px 6px #00000029;
+	.trello-logo {
+		height: 30px;
+	}
+}

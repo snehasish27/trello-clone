@@ -1,0 +1,42 @@
+@import '../../scss/variable.scss';
+
+.list-container {
+	margin-top: 20px;
+	position: relative;
+	background-color: $default-background-color;
+	width: 310px;
+	min-width: 260px;
+	height: 100%;
+	border-radius: 4px;
+	margin-right: 20px;
+	&:last-of-type {
+		margin-right: 20px;
+	}
+	.list-title {
+		background-color: $white;
+		font-weight: $font-semi-bold;
+		font-size: 16px;
+		border-radius: 4px 4px 0 0;
+		padding: 15px;
+		position: relative;
+		.close {
+			position: absolute;
+			top: 15px;
+			right: 15px;
+			cursor: pointer;
+			color: $gray;
+			&:hover {
+				color: $default-color;
+			}
+		}
+	}
+	.list-content-wrapper {
+		padding: 15px;
+		.empty-list-state {
+			background-color: $default-background-color;
+			color: #6f6667;
+			padding: 10px 20px 20px;
+			text-align: center;
+		}
+	}
+}

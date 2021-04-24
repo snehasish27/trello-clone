@@ -1,0 +1,27 @@
+@import '../../../scss/variable.scss';
+
+.button-elem {
+	background-color: $primary-color;
+	padding: 6px 12px;
+	font-size: 16px;
+	border-radius: 4px;
+	border: 1px solid $primary-color;
+	color: $white;
+	box-shadow: 0 3px 6px #00000029;
+	cursor: pointer;
+	outline: none;
+	&:hover {
+		background-color: #036198;
+	}
+	&.block {
+		width: 100%;
+	}
+	&.mute {
+		background-color: $gray;
+		border-color: $gray;
+		color: $default-color;
+		&:hover {
+			background-color: #b9b5b5;
+		}
+	}
+}

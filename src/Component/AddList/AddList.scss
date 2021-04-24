@@ -1,0 +1,30 @@
+@import '../../scss/variable.scss';
+
+.add-list-button {
+	position: fixed;
+	padding: 4px 13px 9px;
+	font-size: 36px;
+	line-height: 1;
+	text-align: center;
+	border-radius: 100%;
+	bottom: 20px;
+	right: 20px;
+	background-color: $white;
+}
+
+.add-list-form {
+	padding: 25px;
+	width: 400px;
+	height: 140px;
+	.header {
+		font-size: 20px;
+		margin-bottom: 20px;
+		font-weight: $font-semi-bold;
+	}
+	.close {
+		position: absolute;
+		right: 25px;
+		top: 25px;
+		cursor: pointer;
+	}
+}
